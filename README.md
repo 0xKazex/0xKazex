@@ -1,8 +1,6 @@
+<img src="https://capsule-render.vercel.app/api?type=waving&color=B30000&height=180&section=header&text=0xKazex&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Security%20Research%20Engineer%20//%20Apprentice&descAlignY=60&descSize=16" width="100%"/>
+
 <div align="center">
-
-# `0xKazex`
-
-**Security Research Engineer** *// Apprentice*
 
 `15 y/o` • `France` • `Self-taught`
 
@@ -94,3 +92,5 @@ philosophy:    "Consistency beats intensity."
 *"In a world of script kiddies — be a researcher."*
 
 </div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=B30000&height=120&section=footer"/>
