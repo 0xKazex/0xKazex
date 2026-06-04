@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=B30000&height=180&section=header&text=0xKazex&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Security%20Research%20Engineer%20//%20Apprentice&descAlignY=60&descSize=16" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=soft&color=B30000&height=160&section=header&text=0xKazex&fontSize=72&fontColor=ffffff&fontAlignY=42&desc=Security%20Research%20Engineer%20//%20Apprentice&descAlignY=68&descSize=15&animation=twinkling" width="100%"/>
 
 <div align="center">
 
@@ -6,9 +6,10 @@
 
 <br/>
 
-<img src="https://img.shields.io/badge/STATUS-BOOTSTRAPPING-B30000?style=for-the-badge&labelColor=000000" />
-<img src="https://img.shields.io/badge/FOCUS-LOW_LEVEL_SECURITY-B30000?style=for-the-badge&labelColor=000000" />
-<img src="https://komarev.com/ghpvc/?username=0xKazex&label=VIEWS&color=B30000&style=for-the-badge&labelColor=000000" />
+<img src="https://img.shields.io/badge/Phase-0_Foundations-B30000?style=flat&labelColor=1a1a1a" />
+<img src="https://img.shields.io/badge/Learning-C_%26_Linux-B30000?style=flat&labelColor=1a1a1a" />
+<img src="https://img.shields.io/badge/Started-2026-B30000?style=flat&labelColor=1a1a1a" />
+<img src="https://komarev.com/ghpvc/?username=0xKazex&label=views&color=B30000&style=flat&labelColor=1a1a1a" />
 
 </div>
 
@@ -93,4 +94,4 @@ philosophy:    "Consistency beats intensity."
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=B30000&height=120&section=footer"/>
+<img src="https://capsule-render.vercel.app/api?type=soft&color=B30000&height=120&section=footer&animation=twinkling"/>
