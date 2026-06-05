@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=soft&color=B30000&height=180&section=header&text=0xKazex&fontSize=48&fontColor=FFFFFF&fontAlignY=48&desc=Security%20Research%20Engineer%20%2F%2F%20Apprentice&descSize=17&descAlignY=64&descColor=CCCCCC&animation=twinkling" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0d0d0d&colorEnd=B30000&height=180&section=header&text=0xKazex&fontSize=48&fontColor=FFFFFF&fontAlignY=46&desc=Security%20Research%20Engineer%20%2F%2F%20Apprentice&descSize=17&descAlignY=63&descColor=CCCCCC&animation=fadeIn&strokeColor=FFFFFF&strokeWidth=2" width="100%"/>
 
 <br>
 
@@ -15,7 +15,7 @@
 
 </div>
 
----
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0d0d0d&height=35&section=header&animation=twinkling&strokeColor=FFFFFF&strokeWidth=1" width="100%"/>
 
 ### `> whoami`
 
@@ -32,7 +32,7 @@ end_goal:    Security Research Engineer
 philosophy:  Read deeply · Write precisely · Practice relentlessly
 ```
 
----
+<img src="https://capsule-render.vercel.app/api?type=waving&color=B30000&height=40&section=header&animation=twinkling&strokeColor=000000&strokeWidth=2" width="100%"/>
 
 ### `> arsenal`
 
@@ -58,7 +58,7 @@ philosophy:  Read deeply · Write precisely · Practice relentlessly
 [![eBPF](https://img.shields.io/badge/eBPF-B30000?style=flat-square&logo=linux&logoColor=white&labelColor=1a1a1a)]()
 [![Linux Kernel](https://img.shields.io/badge/Linux_Kernel-B30000?style=flat-square&logo=linux&logoColor=white&labelColor=1a1a1a)]()
 
----
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0d0d0d&height=30&section=header&animation=twinkling&strokeColor=B30000&strokeWidth=2" width="100%"/>
 
 ### `> roadmap`
 
@@ -98,7 +98,7 @@ philosophy:  Read deeply · Write precisely · Practice relentlessly
 | [`writeups`](https://github.com/0xKazex/writeups) | CTF, challenges, CVE reproductions *(soon)* |
 | [`tools`](https://github.com/0xKazex/tools) | Scripts, plugins, utilities *(soon)* |
 
----
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0d0d0d&height=35&section=header&animation=twinkling&strokeColor=FFFFFF&strokeWidth=1" width="100%"/>
 
 <div align="center">
 
@@ -113,6 +113,6 @@ philosophy:  Read deeply · Write precisely · Practice relentlessly
 
 <br>
 
-<img src="https://capsule-render.vercel.app/api?type=soft&color=B30000&height=120&section=footer&animation=twinkling" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=B30000&colorEnd=0d0d0d&height=120&section=footer&animation=twinkling&strokeColor=FFFFFF&strokeWidth=2" width="100%"/>
 
 </div>
