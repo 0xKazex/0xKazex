@@ -22,7 +22,7 @@
 </td>
 <td valign="top">
 
-<img src="./section-identity.svg" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=soft&color=B30000&height=60&section=header&text=%3E%20./identity.sh&fontSize=24&fontColor=ffffff&fontAlignY=55&animation=fadeIn" width="100%"/>
 
 ```yaml
 operator:      0xKazex
@@ -57,7 +57,7 @@ philosophy:    "Consistency > Intensity"
 
 <img src="./divider.svg" width="100%"/>
 
-<img src="./section-focus.svg" width="600"/>
+<img src="https://capsule-render.vercel.app/api?type=soft&color=B30000&height=60&section=header&text=%3E%20./current_focus.sh&fontSize=24&fontColor=ffffff&fontAlignY=55&animation=fadeIn" width="100%"/>
 
 <table>
 <tr>
@@ -102,7 +102,7 @@ philosophy:    "Consistency > Intensity"
 
 <img src="./divider.svg" width="100%"/>
 
-<img src="./section-arsenal.svg" width="600"/>
+<img src="https://capsule-render.vercel.app/api?type=soft&color=B30000&height=60&section=header&text=%3E%20./arsenal.sh&fontSize=24&fontColor=ffffff&fontAlignY=55&animation=fadeIn" width="100%"/>
 
 <table>
 <tr>
@@ -141,7 +141,7 @@ philosophy:    "Consistency > Intensity"
 
 <img src="./divider.svg" width="100%"/>
 
-<img src="./section-roadmap.svg" width="600"/>
+<img src="https://capsule-render.vercel.app/api?type=soft&color=B30000&height=60&section=header&text=%3E%20./roadmap.sh&fontSize=24&fontColor=ffffff&fontAlignY=55&animation=fadeIn" width="100%"/>
 
 <table>
 <tr>
@@ -172,7 +172,7 @@ philosophy:    "Consistency > Intensity"
 
 <img src="./divider.svg" width="100%"/>
 
-<img src="./section-repos.svg" width="600"/>
+<img src="https://capsule-render.vercel.app/api?type=soft&color=B30000&height=60&section=header&text=%3E%20./repositories.sh&fontSize=24&fontColor=ffffff&fontAlignY=55&animation=fadeIn" width="100%"/>
 
 <table>
 <tr>
@@ -197,7 +197,7 @@ philosophy:    "Consistency > Intensity"
 
 <img src="./divider.svg" width="100%"/>
 
-<img src="./section-uplink.svg" width="600"/>
+<img src="https://capsule-render.vercel.app/api?type=soft&color=B30000&height=60&section=header&text=%3E%20./uplink.sh&fontSize=24&fontColor=ffffff&fontAlignY=55&animation=fadeIn" width="100%"/>
 
 <p>
 <a href="mailto:0xkazex@proton.me"><img src="https://img.shields.io/badge/%5BMAIL%5D-0xkazex@proton.me-6D4AFF?style=for-the-badge&logo=protonmail&logoColor=white&labelColor=0a0a0a"/></a>
