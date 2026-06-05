@@ -1,74 +1,133 @@
-<svg width="1200" height="200" xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="280" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0a0a0a;stop-opacity:1" />
+      <stop offset="0%" style="stop-color:#000000;stop-opacity:1" />
       <stop offset="50%" style="stop-color:#1a0000;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#0a0a0a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#000000;stop-opacity:1" />
     </linearGradient>
     
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#B30000" stroke-width="0.5" opacity="0.15"/>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#B30000" stroke-width="0.5" opacity="0.2"/>
     </pattern>
     
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+    <pattern id="diagonals" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M 0 60 L 60 0" stroke="#B30000" stroke-width="0.3" opacity="0.15"/>
+    </pattern>
+    
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
       <feMerge>
         <feMergeNode in="coloredBlur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
+    
+    <filter id="textGlow">
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
   </defs>
   
-  <!-- Background -->
-  <rect width="1200" height="200" fill="url(#bg)"/>
-  <rect width="1200" height="200" fill="url(#grid)"/>
+  <!-- Background layers -->
+  <rect width="1200" height="280" fill="url(#bg)"/>
+  <rect width="1200" height="280" fill="url(#grid)"/>
+  <rect width="1200" height="280" fill="url(#diagonals)"/>
   
   <!-- Scan line animée -->
-  <rect x="0" y="0" width="1200" height="2" fill="#B30000" opacity="0.6">
-    <animate attributeName="y" from="0" to="200" dur="3s" repeatCount="indefinite"/>
+  <rect x="0" y="0" width="1200" height="3" fill="#B30000" opacity="0.7">
+    <animate attributeName="y" from="0" to="280" dur="4s" repeatCount="indefinite"/>
   </rect>
   
+  <!-- Lignes décoratives gauche -->
+  <line x1="30" y1="40" x2="200" y2="40" stroke="#B30000" stroke-width="1" opacity="0.6"/>
+  <line x1="30" y1="240" x2="200" y2="240" stroke="#B30000" stroke-width="1" opacity="0.6"/>
+  
+  <!-- Lignes décoratives droite -->
+  <line x1="1000" y1="40" x2="1170" y2="40" stroke="#B30000" stroke-width="1" opacity="0.6"/>
+  <line x1="1000" y1="240" x2="1170" y2="240" stroke="#B30000" stroke-width="1" opacity="0.6"/>
+  
   <!-- Code matrix style en arrière-plan -->
-  <text x="20" y="30" font-family="monospace" font-size="11" fill="#B30000" opacity="0.3">
-    0x7FFE_FFAB  push rbp
-    <animate attributeName="opacity" values="0.3;0.6;0.3" dur="2s" repeatCount="indefinite"/>
+  <text x="40" y="65" font-family="monospace" font-size="11" fill="#B30000" opacity="0.4">
+    [0x7FFE_FFAB]  push rbp
+    <animate attributeName="opacity" values="0.2;0.6;0.2" dur="2s" repeatCount="indefinite"/>
   </text>
-  <text x="20" y="180" font-family="monospace" font-size="11" fill="#B30000" opacity="0.3">
-    0x7FFE_FFB0  mov rbp, rsp
-    <animate attributeName="opacity" values="0.3;0.6;0.3" dur="2.5s" repeatCount="indefinite"/>
+  <text x="40" y="85" font-family="monospace" font-size="11" fill="#B30000" opacity="0.4">
+    [0x7FFE_FFB0]  mov rbp, rsp
+    <animate attributeName="opacity" values="0.3;0.7;0.3" dur="2.5s" repeatCount="indefinite"/>
   </text>
-  <text x="900" y="30" font-family="monospace" font-size="11" fill="#B30000" opacity="0.3">
-    [+] kernel exploit
-    <animate attributeName="opacity" values="0.3;0.5;0.3" dur="3s" repeatCount="indefinite"/>
-  </text>
-  <text x="900" y="180" font-family="monospace" font-size="11" fill="#B30000" opacity="0.3">
-    [✓] shell spawned
-    <animate attributeName="opacity" values="0.3;0.6;0.3" dur="2.8s" repeatCount="indefinite"/>
+  <text x="40" y="105" font-family="monospace" font-size="11" fill="#B30000" opacity="0.4">
+    [0x7FFE_FFB4]  sub rsp, 0x20
+    <animate attributeName="opacity" values="0.2;0.5;0.2" dur="3s" repeatCount="indefinite"/>
   </text>
   
-  <!-- Titre principal -->
-  <text x="600" y="95" text-anchor="middle" font-family="monospace" font-size="56" font-weight="bold" fill="#ffffff" filter="url(#glow)">
+  <text x="40" y="220" font-family="monospace" font-size="11" fill="#B30000" opacity="0.4">
+    [+] kernel module loaded
+    <animate attributeName="opacity" values="0.3;0.6;0.3" dur="2.2s" repeatCount="indefinite"/>
+  </text>
+  <text x="40" y="240" font-family="monospace" font-size="11" fill="#B30000" opacity="0.4">
+    [✓] shell spawned at uid=0
+    <animate attributeName="opacity" values="0.2;0.5;0.2" dur="2.8s" repeatCount="indefinite"/>
+  </text>
+  
+  <text x="950" y="65" font-family="monospace" font-size="11" fill="#B30000" opacity="0.4">
+    EXPLOIT_DEV
+    <animate attributeName="opacity" values="0.2;0.5;0.2" dur="2.3s" repeatCount="indefinite"/>
+  </text>
+  <text x="950" y="85" font-family="monospace" font-size="11" fill="#B30000" opacity="0.4">
+    REVERSE_ENG
+    <animate attributeName="opacity" values="0.3;0.6;0.3" dur="2.7s" repeatCount="indefinite"/>
+  </text>
+  <text x="950" y="105" font-family="monospace" font-size="11" fill="#B30000" opacity="0.4">
+    KERNEL_RES
+    <animate attributeName="opacity" values="0.2;0.5;0.2" dur="3.1s" repeatCount="indefinite"/>
+  </text>
+  
+  <text x="950" y="220" font-family="monospace" font-size="11" fill="#B30000" opacity="0.4">
+    fuzzing → bug
+    <animate attributeName="opacity" values="0.3;0.6;0.3" dur="2.4s" repeatCount="indefinite"/>
+  </text>
+  <text x="950" y="240" font-family="monospace" font-size="11" fill="#B30000" opacity="0.4">
+    bug → CVE
+    <animate attributeName="opacity" values="0.2;0.5;0.2" dur="2.9s" repeatCount="indefinite"/>
+  </text>
+  
+  <!-- Titre principal avec glow -->
+  <text x="600" y="135" text-anchor="middle" font-family="monospace" font-size="72" font-weight="bold" fill="#ffffff" filter="url(#textGlow)">
     0xKazex
   </text>
   
   <!-- Curseur clignotant -->
-  <rect x="822" y="58" width="14" height="50" fill="#B30000">
+  <rect x="838" y="88" width="16" height="58" fill="#B30000">
     <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
   </rect>
   
+  <!-- Ligne décorative sous le titre -->
+  <line x1="450" y1="155" x2="750" y2="155" stroke="#B30000" stroke-width="1" opacity="0.7"/>
+  
   <!-- Sous-titre -->
-  <text x="600" y="130" text-anchor="middle" font-family="monospace" font-size="16" fill="#B30000" letter-spacing="4">
+  <text x="600" y="180" text-anchor="middle" font-family="monospace" font-size="16" fill="#B30000" letter-spacing="4">
     // SECURITY RESEARCH ENGINEER // APPRENTICE //
   </text>
   
-  <!-- Ligne de status en bas -->
-  <text x="600" y="165" text-anchor="middle" font-family="monospace" font-size="12" fill="#888888" letter-spacing="2">
-    [ STATUS: BOOTING ] [ PHASE: 0 ] [ TARGET: SECURITY RESEARCH ]
+  <!-- Status bar -->
+  <text x="600" y="215" text-anchor="middle" font-family="monospace" font-size="11" fill="#888888" letter-spacing="2">
+    [ AGE: 15 ]  [ COUNTRY: FRANCE ]  [ STATUS: SELF-TAUGHT ]  [ PHASE: 0 ]
   </text>
   
-  <!-- Bordures rouges en coin (effet HUD) -->
-  <path d="M 10 10 L 50 10 M 10 10 L 10 50" stroke="#B30000" stroke-width="2" fill="none"/>
-  <path d="M 1190 10 L 1150 10 M 1190 10 L 1190 50" stroke="#B30000" stroke-width="2" fill="none"/>
-  <path d="M 10 190 L 50 190 M 10 190 L 10 150" stroke="#B30000" stroke-width="2" fill="none"/>
-  <path d="M 1190 190 L 1150 190 M 1190 190 L 1190 150" stroke="#B30000" stroke-width="2" fill="none"/>
+  <text x="600" y="245" text-anchor="middle" font-family="monospace" font-size="10" fill="#555555" letter-spacing="3">
+    INIT_DATE: 2026 · TARGET: SECURITY_RESEARCH_ENGINEER · MODE: GRIND
+  </text>
+  
+  <!-- Bordures HUD aux 4 coins (plus visibles) -->
+  <path d="M 15 15 L 60 15 M 15 15 L 15 60" stroke="#B30000" stroke-width="2.5" fill="none" filter="url(#glow)"/>
+  <path d="M 1185 15 L 1140 15 M 1185 15 L 1185 60" stroke="#B30000" stroke-width="2.5" fill="none" filter="url(#glow)"/>
+  <path d="M 15 265 L 60 265 M 15 265 L 15 220" stroke="#B30000" stroke-width="2.5" fill="none" filter="url(#glow)"/>
+  <path d="M 1185 265 L 1140 265 M 1185 265 L 1185 220" stroke="#B30000" stroke-width="2.5" fill="none" filter="url(#glow)"/>
+  
+  <!-- Petits triangles décoratifs -->
+  <polygon points="100,15 110,5 120,15" fill="#B30000" opacity="0.6"/>
+  <polygon points="1080,265 1090,275 1100,265" fill="#B30000" opacity="0.6"/>
 </svg>
