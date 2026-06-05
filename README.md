@@ -1,118 +1,130 @@
+<img src="./banner.svg" width="100%"/>
+
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0d0d0d&colorEnd=B30000&height=180&section=header&text=0xKazex&fontSize=48&fontColor=FFFFFF&fontAlignY=46&desc=Security%20Research%20Engineer%20%2F%2F%20Apprentice&descSize=17&descAlignY=63&descColor=CCCCCC&animation=fadeIn&strokeColor=FFFFFF&strokeWidth=2" width="100%"/>
+`15 y/o` ・ `France` ・ `Self-taught` ・ `Class of 2026`
 
-<br>
+<br/>
 
-`15 y/o` · `France` · `Self-taught`
-
-<br><br>
-
-[![Phase](https://img.shields.io/badge/Phase-0_%C2%B7_Foundations-B30000?style=flat&labelColor=1a1a1a)]()
-[![Learning](https://img.shields.io/badge/Learning-C_%26_Linux-B30000?style=flat&labelColor=1a1a1a)]()
-[![Since](https://img.shields.io/badge/Since-2026-B30000?style=flat&labelColor=1a1a1a)]()
-[![Views](https://komarev.com/ghpvc/?username=0xKazex&style=flat&label=Profile+Views&color=B30000&labelColor=1a1a1a)]()
+<img src="https://img.shields.io/badge/%5BPHASE%5D-0_FOUNDATIONS-B30000?style=flat&labelColor=0a0a0a" />
+<img src="https://img.shields.io/badge/%5BLEARNING%5D-C_%26_LINUX-B30000?style=flat&labelColor=0a0a0a" />
+<img src="https://img.shields.io/badge/%5BGOAL%5D-SECURITY_RESEARCH-B30000?style=flat&labelColor=0a0a0a" />
+<img src="https://komarev.com/ghpvc/?username=0xKazex&label=%5BVISITORS%5D&color=B30000&style=flat&labelColor=0a0a0a" />
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0d0d0d&height=35&section=header&animation=twinkling&strokeColor=FFFFFF&strokeWidth=1" width="100%"/>
+<br/>
 
-### `> whoami`
-
-```yaml
-alias:       0xKazex
-role:        Security Research Engineer // Apprentice
-location:    France
-age:         15
-education:   Self-taught · Lycéen
-specialty:   Low-level security & systems
-current:     C Programming with Linux — edX Dartmouth
-next:        CS:APP · pwn.college · Python (CS61A)
-end_goal:    Security Research Engineer
-philosophy:  Read deeply · Write precisely · Practice relentlessly
 ```
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=B30000&height=40&section=header&animation=twinkling&strokeColor=000000&strokeWidth=2" width="100%"/>
-
-### `> arsenal`
-
-**Now Learning**
-
-[![C](https://img.shields.io/badge/C-B30000?style=flat-square&logo=c&logoColor=white&labelColor=1a1a1a)]()
-[![Linux](https://img.shields.io/badge/Linux-B30000?style=flat-square&logo=linux&logoColor=white&labelColor=1a1a1a)]()
-[![Bash](https://img.shields.io/badge/Bash-B30000?style=flat-square&logo=gnu-bash&logoColor=white&labelColor=1a1a1a)]()
-[![Git](https://img.shields.io/badge/Git-B30000?style=flat-square&logo=git&logoColor=white&labelColor=1a1a1a)]()
-[![Markdown](https://img.shields.io/badge/Markdown-B30000?style=flat-square&logo=markdown&logoColor=white&labelColor=1a1a1a)]()
-
-**Up Next**
-
-[![Python](https://img.shields.io/badge/Python-B30000?style=flat-square&logo=python&logoColor=white&labelColor=1a1a1a)]()
-[![x86–64 ASM](https://img.shields.io/badge/x86--64_ASM-B30000?style=flat-square&logoColor=white&labelColor=1a1a1a)]()
-[![C++](https://img.shields.io/badge/C++-B30000?style=flat-square&logo=c%2B%2B&logoColor=white&labelColor=1a1a1a)]()
-[![GDB](https://img.shields.io/badge/GDB-B30000?style=flat-square&logo=gnu&logoColor=white&labelColor=1a1a1a)]()
-[![Ghidra](https://img.shields.io/badge/Ghidra-B30000?style=flat-square&logoColor=white&labelColor=1a1a1a)]()
-
-**Planned**
-
-[![Rust](https://img.shields.io/badge/Rust-B30000?style=flat-square&logo=rust&logoColor=white&labelColor=1a1a1a)]()
-[![eBPF](https://img.shields.io/badge/eBPF-B30000?style=flat-square&logo=linux&logoColor=white&labelColor=1a1a1a)]()
-[![Linux Kernel](https://img.shields.io/badge/Linux_Kernel-B30000?style=flat-square&logo=linux&logoColor=white&labelColor=1a1a1a)]()
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0d0d0d&height=30&section=header&animation=twinkling&strokeColor=B30000&strokeWidth=2" width="100%"/>
-
-### `> roadmap`
-
-| Phase | Focus | Status |
-|:-----:|-------|:------:|
-| **0** | Foundations — C, Linux, Systems, Python, Math | 🔴 Now |
-| **1** | Exploit Dev + Reverse Engineering + Rust | ⚫ Locked |
-| **2** | Kernel + eBPF + Red Team + Browser Exploitation | ⚫ Locked |
-| **∞** | Cryptography + Quantum + Formal Methods | ⚫ Locked |
-
-<details>
-<summary><b>Phase 0 Breakdown</b></summary>
-<br>
-
-- **edX Dartmouth** — C Programming with Linux (7 courses, full program)
-- **OverTheWire Bandit** — Linux & shell mastery
-- **MIT Missing Semester** — vim, tmux, git, advanced debugging
-- **CS:APP 3rd ed.** (CMU 15-213) — all labs (Bomb, Attack, Cache…)
-- **Modern C++** — for low-level security & reverse engineering
-- **UC Berkeley CS61A** — Python foundations (Composing Programs)
-- **CS61C** — Architecture, RISC-V, caches, virtual memory
-- **MIT 6.042J** — Mathematics for Computer Science
-- **Microcorruption** — assembly & reverse mindset
-- **OST2** — Intro x86-64, Binaries, Debuggers, Vulns, Fuzzing, RE
-- **Personal Research Lab** — paper summaries, variant analysis, writeups
-
-</details>
+> Building from first principles. Line by line. Bit by bit.
+> No shortcuts. No fake expertise. Just systems, math, and time.
+```
 
 ---
 
-### `> repositories`
+## `> ./whoami.sh`
 
-| Repo | Description |
-|-------|-------------|
-| [`learning-journey`](https://github.com/0xKazex/learning-journey) | Multi-year roadmap, notes, weekly logs |
-| [`personal-research-lab`](https://github.com/0xKazex/personal-research-lab) | Paper summaries, variant analysis *(soon)* |
-| [`writeups`](https://github.com/0xKazex/writeups) | CTF, challenges, CVE reproductions *(soon)* |
-| [`tools`](https://github.com/0xKazex/tools) | Scripts, plugins, utilities *(soon)* |
+```yaml
+alias:         0xKazex
+role:          Security Researcher · Apprentice
+location:      France
+age:           15
+education:     Lycéen · Self-taught
+specialty:     Low-level systems · Exploit dev · RE
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0d0d0d&height=35&section=header&animation=twinkling&strokeColor=FFFFFF&strokeWidth=1" width="100%"/>
+current:       edX Dartmouth — C Programming with Linux
+next:          CS:APP · Microcorruption · CS61A
+end_goal:      Security Research Engineer
+
+philosophy:    "Consistency beats intensity."
+```
+
+---
+
+## `> ./arsenal.sh`
+
+```
+[ CURRENTLY USING ]
+```
+
+![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
+![Linux](https://img.shields.io/badge/Linux-000000?style=flat-square&logo=linux&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-121011?style=flat-square&logo=gnubash&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Markdown](https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white)
+![VSCode](https://img.shields.io/badge/VSCode-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
+
+```
+[ LOADING — PHASE 0 / 1 ]
+```
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![ASM](https://img.shields.io/badge/x86--64_ASM-525252?style=flat-square&logo=intel&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![GDB](https://img.shields.io/badge/GDB-A42E2B?style=flat-square&logo=gnu&logoColor=white)
+![Ghidra](https://img.shields.io/badge/Ghidra-FF6B6B?style=flat-square&logoColor=white)
+![Binary_Ninja](https://img.shields.io/badge/Binary_Ninja-1F5582?style=flat-square&logoColor=white)
+![pwntools](https://img.shields.io/badge/pwntools-FF6B00?style=flat-square&logoColor=white)
+
+```
+[ QUEUED — PHASE 2 ]
+```
+
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
+![eBPF](https://img.shields.io/badge/eBPF-FF6600?style=flat-square&logoColor=white)
+![Kernel](https://img.shields.io/badge/Linux_Kernel-CC0000?style=flat-square&logo=linux&logoColor=white)
+![QEMU](https://img.shields.io/badge/QEMU-FF6600?style=flat-square&logo=qemu&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+
+---
+
+## `> ./roadmap.sh`
+
+```
+┌─────────┬──────────────────────────────────────────────────────────┬──────────┐
+│  PHASE  │  FOCUS                                                   │  STATUS  │
+├─────────┼──────────────────────────────────────────────────────────┼──────────┤
+│    0    │  Foundations · C · Linux · Systems · Python · C++ · Math │  ACTIVE  │
+│    1    │  Exploit Development · Low-level RE · Rust Offensive     │  LOCKED  │
+│    2    │  Kernel · eBPF · Red Team · Browser Exploitation         │  LOCKED  │
+│    ∞    │  Cryptography · Quantum · Formal Methods · AI            │  LOCKED  │
+└─────────┴──────────────────────────────────────────────────────────┴──────────┘
+```
+
+---
+
+## `> ./repositories.sh`
+
+```
+[●] ACTIVE
+```
+📚 [**`learning-journey`**](https://github.com/0xKazex/learning-journey) — Multi-year roadmap, course notes, weekly logs
+
+```
+[○] SOON
+```
+🔬 [**`personal-research-lab`**](https://github.com/0xKazex/personal-research-lab) — Paper summaries · variant analysis · deep dives
+✍️ [**`writeups`**](https://github.com/0xKazex/writeups) — CTF solutions · CVE reproductions · walkthroughs
+🛠️ [**`tools`**](https://github.com/0xKazex/tools) — Scripts · plugins · custom utilities
+
+---
+
+## `> ./connect.sh`
+
+<p>
+<a href="mailto:0xkazex@proton.me"><img src="https://img.shields.io/badge/%5BMAIL%5D-0xkazex@proton.me-6D4AFF?style=for-the-badge&logo=protonmail&logoColor=white&labelColor=0a0a0a"/></a>
+<a href="https://github.com/users/0xKazex/projects/1"><img src="https://img.shields.io/badge/%5BTRACKER%5D-LIVE-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=0a0a0a"/></a>
+<a href="https://github.com/0xKazex/learning-journey"><img src="https://img.shields.io/badge/%5BJOURNEY%5D-DOCS-B30000?style=for-the-badge&logo=bookstack&logoColor=white&labelColor=0a0a0a"/></a>
+</p>
+
+---
 
 <div align="center">
 
-### `> connect`
-
-[![Email ProtonMail](https://img.shields.io/badge/Email-ProtonMail-6D4AFF?style=for-the-badge&logo=protonmail&logoColor=white)](mailto:0xkazex@proton.me)
-[![Live Tracker](https://img.shields.io/badge/Live_Tracker-GitHub_Project-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/users/0xKazex/projects/1)
-
-<br><br>
-
-*In a world of script kiddies — be a researcher.*
-
-<br>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=B30000&colorEnd=0d0d0d&height=120&section=footer&animation=twinkling&strokeColor=FFFFFF&strokeWidth=2" width="100%"/>
+```
+"In a world of script kiddies — be a researcher."
+```
 
 </div>
+
+<img src="./footer.svg" width="100%"/>
