@@ -1,0 +1,21 @@
+<svg width="1000" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0a;stop-opacity:0.9"/>
+      <stop offset="50%" style="stop-color:#1a0000;stop-opacity:0.7"/>
+      <stop offset="100%" style="stop-color:#0a0a0a;stop-opacity:0.9"/>
+    </linearGradient>
+    <filter id="cardGlow">
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  
+  <rect width="1000" height="400" fill="url(#cardBg)" rx="4"/>
+  
+  <!-- Bordures HUD aux 4 coins -->
+  <path d="M 10 10 L 40 10 M 10 10 L 10 40" stroke="#B30000" stroke-width="2.5" fill="none" filter="url(#cardGlow)"/>
+  <path d="M 990 10 L 960 10 M 990 10 L 990 40" stroke="#B30000" stroke-width="2.5" fill="none" filter="url(#cardGlow)"/>
+  <path d="M 10 390 L 40 390 M 10 390 L 10 360" stroke="#B30000" stroke-width="2.5" fill="none" filter="url(#cardGlow)"/>
+  <path d="M 990 390 L 960 390 M 990 390 L 990 360" stroke="#B30000" stroke-width="2.5" fill="none" filter="url(#cardGlow)"/>
+</svg>
