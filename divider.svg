@@ -1,0 +1,23 @@
+<svg width="1200" height="40" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#B30000;stop-opacity:0"/>
+      <stop offset="50%" style="stop-color:#B30000;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#B30000;stop-opacity:0"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Ligne principale -->
+  <line x1="0" y1="20" x2="1200" y2="20" stroke="url(#lineGrad)" stroke-width="1"/>
+  
+  <!-- Diamants décoratifs -->
+  <polygon points="600,12 608,20 600,28 592,20" fill="#B30000"/>
+  <polygon points="580,16 584,20 580,24 576,20" fill="#B30000" opacity="0.6"/>
+  <polygon points="620,16 624,20 620,24 616,20" fill="#B30000" opacity="0.6"/>
+  
+  <!-- Petits points -->
+  <circle cx="540" cy="20" r="1.5" fill="#B30000" opacity="0.4"/>
+  <circle cx="660" cy="20" r="1.5" fill="#B30000" opacity="0.4"/>
+  <circle cx="500" cy="20" r="1" fill="#B30000" opacity="0.3"/>
+  <circle cx="700" cy="20" r="1" fill="#B30000" opacity="0.3"/>
+</svg>
