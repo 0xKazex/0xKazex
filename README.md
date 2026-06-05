@@ -1,10 +1,10 @@
-<img src="./banner.svg" width="100%" alt="0xKazex banner"/>
+<img src="./banner.svg" width="100%" alt="banner"/>
 
 <table>
 <tr>
 <td width="180" align="center" valign="top">
 
-<img src="./avatar.png" width="160" style="border-radius: 8px;" alt="0xKazex avatar"/>
+<img src="./avatar.png" width="160" style="border-radius: 8px;" alt="avatar"/>
 
 <br/>
 
@@ -23,13 +23,13 @@
 operator:      0xKazex
 classification: APPRENTICE
 clearance:     [PHASE_0]
-origin:        FR · Lycéen · 15
+origin:        FR · 15 y/o
 specialty:     low-level systems
                 exploit development
                 reverse engineering
 
 mission:       Become a Security Research Engineer
-status:        BOOTSTRAPPING · 2026
+status:        ACTIVE · 2026
 philosophy:    "Consistency > Intensity"
 ```
 
@@ -108,8 +108,7 @@ philosophy:    "Consistency > Intensity"
 ![Linux](https://img.shields.io/badge/Linux-000000?style=flat-square&logo=linux&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-121011?style=flat-square&logo=gnubash&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Markdown](https://img.shields.io/badge/MD-000000?style=flat-square&logo=markdown&logoColor=white)
-![VSCode](https://img.shields.io/badge/VSCode-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
+![MD](https://img.shields.io/badge/MD-000000?style=flat-square&logo=markdown&logoColor=white)
 
 </td>
 <td width="33%" valign="top">
@@ -120,7 +119,6 @@ philosophy:    "Consistency > Intensity"
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 ![GDB](https://img.shields.io/badge/GDB-A42E2B?style=flat-square&logo=gnu&logoColor=white)
 ![Ghidra](https://img.shields.io/badge/Ghidra-FF6B6B?style=flat-square&logoColor=white)
-![pwntools](https://img.shields.io/badge/pwntools-FF6B00?style=flat-square&logoColor=white)
 
 </td>
 <td width="33%" valign="top">
@@ -131,7 +129,6 @@ philosophy:    "Consistency > Intensity"
 ![Kernel](https://img.shields.io/badge/Kernel-CC0000?style=flat-square&logo=linux&logoColor=white)
 ![QEMU](https://img.shields.io/badge/QEMU-FF6600?style=flat-square&logo=qemu&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Binja](https://img.shields.io/badge/BinNinja-1F5582?style=flat-square&logoColor=white)
 
 </td>
 </tr>
@@ -150,26 +147,20 @@ philosophy:    "Consistency > Intensity"
 </tr>
 <tr>
 <td align="center"><b>0</b></td>
-<td><b>Foundations</b><br/><sub>C · Linux · Systems · Python · C++ · Math · Research methodology</sub></td>
-<td><sub>edX · CS:APP · CS61C · OSTEP · CS161 · CS61A · OST2</sub></td>
+<td><b>Foundations</b><br/><sub>C · Linux · Systems · Python · C++</sub></td>
+<td><sub>edX · CS:APP · CS61C · OSTEP</sub></td>
 <td align="center"><img src="https://img.shields.io/badge/●_ACTIVE-B30000?style=flat-square&labelColor=0a0a0a"/></td>
 </tr>
 <tr>
 <td align="center"><b>1</b></td>
-<td><b>Exploit Dev + RE</b><br/><sub>pwn.college · CVE reproduction · Rust offensive</sub></td>
-<td><sub>pwn.college · Nightmare · LiveOverflow · PBA · PMA</sub></td>
+<td><b>Exploit Dev + RE</b><br/><sub>pwn.college · Rust offensive</sub></td>
+<td><sub>pwn.college · Nightmare · LiveOverflow</sub></td>
 <td align="center"><img src="https://img.shields.io/badge/○_LOCKED-1a1a1a?style=flat-square&labelColor=0a0a0a"/></td>
 </tr>
 <tr>
 <td align="center"><b>2</b></td>
-<td><b>Kernel + Advanced</b><br/><sub>Kernel exploit · eBPF · Red Team · Browser</sub></td>
-<td><sub>KernelCTF · Tetragon · Falco · V8 · Syzkaller</sub></td>
-<td align="center"><img src="https://img.shields.io/badge/○_LOCKED-1a1a1a?style=flat-square&labelColor=0a0a0a"/></td>
-</tr>
-<tr>
-<td align="center"><b>∞</b></td>
-<td><b>Specialization</b><br/><sub>Cryptography · Quantum · Formal Methods · AI</sub></td>
-<td><sub>Cryptopals · NIST PQC · CHERI · MTE</sub></td>
+<td><b>Kernel + Advanced</b><br/><sub>eBPF · Red Team · Browser</sub></td>
+<td><sub>KernelCTF · Tetragon · V8</sub></td>
 <td align="center"><img src="https://img.shields.io/badge/○_LOCKED-1a1a1a?style=flat-square&labelColor=0a0a0a"/></td>
 </tr>
 </table>
@@ -182,25 +173,19 @@ philosophy:    "Consistency > Intensity"
 <tr>
 <td width="40">📚</td>
 <td><a href="https://github.com/0xKazex/learning-journey"><b><code>learning-journey</code></b></a></td>
-<td>Multi-year roadmap · course notes · weekly logs</td>
+<td>Roadmap · course notes · weekly logs</td>
 <td align="center"><img src="https://img.shields.io/badge/●_ACTIVE-B30000?style=flat-square&labelColor=0a0a0a"/></td>
 </tr>
 <tr>
 <td>🔬</td>
 <td><a href="https://github.com/0xKazex/personal-research-lab"><b><code>personal-research-lab</code></b></a></td>
-<td>Paper summaries · variant analysis · deep dives</td>
+<td>Paper summaries · deep dives</td>
 <td align="center"><img src="https://img.shields.io/badge/○_SOON-555555?style=flat-square&labelColor=0a0a0a"/></td>
 </tr>
 <tr>
 <td>✍️</td>
 <td><a href="https://github.com/0xKazex/writeups"><b><code>writeups</code></b></a></td>
-<td>CTF solutions · CVE reproductions · walkthroughs</td>
-<td align="center"><img src="https://img.shields.io/badge/○_SOON-555555?style=flat-square&labelColor=0a0a0a"/></td>
-</tr>
-<tr>
-<td>🛠️</td>
-<td><a href="https://github.com/0xKazex/tools"><b><code>tools</code></b></a></td>
-<td>Scripts · plugins · custom security utilities</td>
+<td>CTF solutions · CVE reproductions</td>
 <td align="center"><img src="https://img.shields.io/badge/○_SOON-555555?style=flat-square&labelColor=0a0a0a"/></td>
 </tr>
 </table>
@@ -212,23 +197,16 @@ philosophy:    "Consistency > Intensity"
 <p>
 <a href="mailto:0xkazex@proton.me"><img src="https://img.shields.io/badge/%5BMAIL%5D-0xkazex@proton.me-6D4AFF?style=for-the-badge&logo=protonmail&logoColor=white&labelColor=0a0a0a"/></a>
 <a href="https://github.com/users/0xKazex/projects/1"><img src="https://img.shields.io/badge/%5BTRACKER%5D-LIVE_PROGRESS-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=0a0a0a"/></a>
-<a href="https://github.com/0xKazex/learning-journey"><img src="https://img.shields.io/badge/%5BJOURNEY%5D-DOCUMENTATION-B30000?style=for-the-badge&logo=bookstack&logoColor=white&labelColor=0a0a0a"/></a>
 </p>
 
 ---
 
 <div align="center">
 
-```
-╔══════════════════════════════════════════════════════════════╗
-║                                                              ║
-║   "In a world of script kiddies — be a researcher."          ║
-║                                                              ║
-║                          — 0xKazex                           ║
-║                                                              ║
-╚══════════════════════════════════════════════════════════════╝
-```
+<img src="./quote.svg" width="600" alt="quote"/>
 
-</div>
+<br/>
 
 <img src="./footer.svg" width="100%" alt="footer"/>
+
+</div>
