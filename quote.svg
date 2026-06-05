@@ -1,0 +1,37 @@
+<svg width="800" height="150" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background transparent -->
+  <rect width="800" height="150" fill="none"/>
+
+  <!-- Cadre HUD minimaliste -->
+  <path d="M 10 30 L 10 10 L 30 10" stroke="#B30000" stroke-width="2" fill="none" opacity="0.8"/>
+  <path d="M 770 10 L 790 10 L 790 30" stroke="#B30000" stroke-width="2" fill="none" opacity="0.8"/>
+  <path d="M 10 120 L 10 140 L 30 140" stroke="#B30000" stroke-width="2" fill="none" opacity="0.8"/>
+  <path d="M 770 140 L 790 140 L 790 120" stroke="#B30000" stroke-width="2" fill="none" opacity="0.8"/>
+  
+  <line x1="40" y1="10" x2="760" y2="10" stroke="#B30000" stroke-width="0.5" opacity="0.3"/>
+  <line x1="40" y1="140" x2="760" y2="140" stroke="#B30000" stroke-width="0.5" opacity="0.3"/>
+
+  <!-- Texte de la citation -->
+  <text x="400" y="65" text-anchor="middle" font-family="monospace" font-size="22" fill="#ffffff" font-style="italic">
+    "In a world of script kiddies — be a researcher."
+  </text>
+  
+  <!-- Signature -->
+  <text x="400" y="105" text-anchor="middle" font-family="monospace" font-size="16" fill="#B30000" font-weight="bold" filter="url(#glow)">
+    — 0xKazex —
+  </text>
+  
+  <!-- Petits points de données -->
+  <circle cx="10" cy="75" r="2" fill="#B30000" opacity="0.5"/>
+  <circle cx="790" cy="75" r="2" fill="#B30000" opacity="0.5"/>
+</svg>
