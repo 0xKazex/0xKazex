@@ -4,9 +4,9 @@
 <tr>
 <td width="180" align="center" valign="top">
 
-<img src="./avatar.png" width="160" style="border-radius: 8px;" alt="avatar"/>
+<img src="./avatar.png" width="160" alt="avatar"/>
 
-<br/>
+<br/><br/>
 
 <img src="https://img.shields.io/badge/●_ONLINE-B30000?style=flat-square&labelColor=0a0a0a"/>
 
@@ -14,10 +14,15 @@
 
 <img src="https://komarev.com/ghpvc/?username=0xKazex&label=VISITS&color=B30000&style=flat-square&labelColor=0a0a0a"/>
 
+<br/><br/>
+
+<img src="https://img.shields.io/badge/AGE-15-B30000?style=flat-square&labelColor=0a0a0a"/>
+<img src="https://img.shields.io/badge/FR-B30000?style=flat-square&labelColor=0a0a0a"/>
+
 </td>
 <td valign="top">
 
-### `> ./identity.sh`
+<img src="./section-identity.svg" width="100%"/>
 
 ```yaml
 operator:      0xKazex
@@ -34,25 +39,25 @@ philosophy:    "Consistency > Intensity"
 ```
 
 <p>
-<img src="https://img.shields.io/badge/%5BPHASE%5D-0_FOUNDATIONS-B30000?style=flat&labelColor=0a0a0a" />
-<img src="https://img.shields.io/badge/%5BLEARNING%5D-C_%26_LINUX-B30000?style=flat&labelColor=0a0a0a" />
-<img src="https://img.shields.io/badge/%5BTARGET%5D-SEC_RESEARCH-B30000?style=flat&labelColor=0a0a0a" />
+<img src="https://img.shields.io/badge/%5BPHASE%5D-0_FOUNDATIONS-B30000?style=flat&labelColor=0a0a0a"/>
+<img src="https://img.shields.io/badge/%5BLEARNING%5D-C_%26_LINUX-B30000?style=flat&labelColor=0a0a0a"/>
+<img src="https://img.shields.io/badge/%5BTARGET%5D-SEC_RESEARCH-B30000?style=flat&labelColor=0a0a0a"/>
 </p>
 
 </td>
 </tr>
 </table>
 
----
+<img src="./divider.svg" width="100%"/>
 
 ```
 > Building from first principles. Line by line. Bit by bit.
 > No shortcuts. No fake expertise. Just systems, math, and time.
 ```
 
----
+<img src="./divider.svg" width="100%"/>
 
-## `> ./current_focus.sh`
+<img src="./section-focus.svg" width="600"/>
 
 <table>
 <tr>
@@ -95,9 +100,9 @@ philosophy:    "Consistency > Intensity"
 </tr>
 </table>
 
----
+<img src="./divider.svg" width="100%"/>
 
-## `> ./arsenal.sh`
+<img src="./section-arsenal.svg" width="600"/>
 
 <table>
 <tr>
@@ -134,9 +139,9 @@ philosophy:    "Consistency > Intensity"
 </tr>
 </table>
 
----
+<img src="./divider.svg" width="100%"/>
 
-## `> ./roadmap.sh`
+<img src="./section-roadmap.svg" width="600"/>
 
 <table>
 <tr>
@@ -165,9 +170,9 @@ philosophy:    "Consistency > Intensity"
 </tr>
 </table>
 
----
+<img src="./divider.svg" width="100%"/>
 
-## `> ./repositories.sh`
+<img src="./section-repos.svg" width="600"/>
 
 <table>
 <tr>
@@ -190,23 +195,21 @@ philosophy:    "Consistency > Intensity"
 </tr>
 </table>
 
----
+<img src="./divider.svg" width="100%"/>
 
-## `> ./uplink.sh`
+<img src="./section-uplink.svg" width="600"/>
 
 <p>
 <a href="mailto:0xkazex@proton.me"><img src="https://img.shields.io/badge/%5BMAIL%5D-0xkazex@proton.me-6D4AFF?style=for-the-badge&logo=protonmail&logoColor=white&labelColor=0a0a0a"/></a>
 <a href="https://github.com/users/0xKazex/projects/1"><img src="https://img.shields.io/badge/%5BTRACKER%5D-LIVE_PROGRESS-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=0a0a0a"/></a>
 </p>
 
----
+<img src="./divider.svg" width="100%"/>
 
 <div align="center">
 
-<img src="./quote.svg" width="600" alt="quote"/>
-
-<br/>
-
-<img src="./footer.svg" width="100%" alt="footer"/>
+<img src="./quote.svg" width="700" alt="quote"/>
 
 </div>
+
+<img src="./footer.svg" width="100%" alt="footer"/>
